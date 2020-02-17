@@ -1,0 +1,2 @@
+cls
+ffmpeg -ss 30 -i copy.mp3 -t 120 -c copy copys120.mp3
