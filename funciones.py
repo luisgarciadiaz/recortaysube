@@ -2,7 +2,7 @@ import ftplib
 import os
 # ff.upFTP(con)
 def upFTP(path):
-    session = ftplib.FTP('162.241.60.204', 'servidor@percepcionmexico.com', 'WPloel0BlWmn')
+    session = ftplib.FTP('ip', 'servidor','pass ')
     def placeFiles(ftp, path):
         for name in os.listdir(path):
             localpath = os.path.join(path, name)
